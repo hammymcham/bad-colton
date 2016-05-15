@@ -1,0 +1,114 @@
+body{
+	margin: 0;
+	background-color: #111111;
+	max-height: 100%;
+}
+
+
+
+
+
+
+/*Start navbar*/
+ul.unlist {
+    list-style-type: none;
+	box-shadow:black 0px 2px;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+
+    top: 0;
+    width: 100%;
+}
+.list{
+	font-family:Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+li.list {
+
+    float: left;
+    text-shadow:0px 2px black;
+}
+
+li.list a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li.list a:hover:not(.active) {
+    background-color: #1F1F1F;
+}
+
+.active {
+    background-color: #1F1F1F;
+}
+#right{
+    float:right;
+    list-style-type: none;
+}
+#right1{
+    float:right;
+    list-style-type: none;
+}
+
+/*End navbar*/
+/*Start sidebar*/
+ul.unside {
+		font-family:Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    list-style-type: none;
+	height:100%;
+    margin: 0;
+    padding: 0;
+
+    background-color: #333;
+	padding-bottom:41%;
+	float:left;
+}
+
+li.sidel a {
+    display: block;
+    color: white;
+    padding: 8px 0 8px 16px;
+    text-decoration: none;
+	    text-shadow:0px 2px black;
+		
+}
+
+li.sidel a.activei {
+    background-color: #1F1F1F;
+    color: white;
+	
+}
+li.sidel a:hover:not(.active) {
+    background-color: #1F1F1F;
+    color: white;
+}
+.navers{
+	padding-top:px;
+
+}
+/*End Sidebar*/
+/*Start main*/
+
+.bod{
+
+		min-height: 100%;
+	height: 100%;
+	width: 100%;
+background-color:#131313;
+color:white;
+float:right;}
+.asood{
+float:left;
+	justify-content: center;
+
+	text-align: center;
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif
+}
+.images{
+	margin:0 auto;
+}
+/*End main*/
